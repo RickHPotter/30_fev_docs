@@ -115,6 +115,225 @@ The Bank Account will be deleted if it has NO transactions attached to it. (See 
 1. Navigate to **Basics** from the first row of the top menu.
 1. Navigate to **Accounts** from the second row of the top menu.
 3. Click the **New Bank Account** button.
+4. Fill in the necessary fields, but uncheck the **Active** checkbox.
+5. Click **Submit Bank Account**.
+
+You will find yourself again at the listing of Bank Accounts, and to see the account you just created (or edited)
+with the **Active** checkbox unchecked, you have to click on the top corner button **Show Inactive**.
+
+When inactive, a Bank Account will not show up in the Cash Transaction creation page.
+
+![UserBankAccount Create Inactive Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/04.%20Create%20Inactive.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/04.%20Create%20Inactive.mp4)
+
+### 🧾 Creating Cash Transaction - Peak Into Bank Accounts Listing
+
+1. Navigate to **Cash Transactions** from the first row of the top menu.
+1. Navigate to **Pix** from the second row of the top menu.
+3. Click the **New Cash Transaction** button.
+4. Fill in these fields for now:
+   - Description
+   - Comment (optional)
+   - Bank Account
+   - Date
+   - Price
+5. Click **Submit Cash Transaction**.
+
+The Cash Transaction will be created as long as the necessary data have been filled in.
+Moving back to Bank Accounts Listing page, you will see that the used Bank Account has updated its transactions count and transactions total.
+
+As for the transactions count, you are able to click on the link that takes you to the listing of all these cash transactions that belong
+to the given bank account.
+
+![UserBankAccount Create Cash Transaction Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/05.%20Create%20CashTransaction%20-%20Peak%20Into%20UserBankAccount%23Index.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/05.%20Create%20CashTransaction%20-%20Peak%20Into%20UserBankAccount%23Index.mp4)
+
+### 🧾 Delete Failure Because Bank Account Has Transactions Attached
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find a bank account that has transactions attached to it (transactions count is greater than 0).
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The Bank Account will NOT be deleted because there are cash transactions attached to it. The one thing that can
+be done in this case is to make it inactive so that it does not show up in the Cash Transaction creation page.
+
+![UserBankAccount Delete Failure Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/06.%20Delete%20Failure%20Because%20UserBankAccount%20Has%20Transactions.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/06.%20Delete%20Failure%20Because%UserBankAccounts%20Has%20Transactions.mp4)
+
+---
+
+## 💳  User Cards
+
+### ➕ Creating a User Card
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Cards** from the second row of the top menu.
+3. Click the **New User Card** button.
+4. Fill in:
+   - User Card Name
+   - Card Brand
+   - Closing Date
+   - Due Date
+   - Minimum Spend (optional)
+   - Credit Limit (optional)
+5. Click **Submit User Card**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Card Transaction creation with the given User Card you have created.
+
+![UserCard Create Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/01.%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/01.%20Create.mp4)
+
+### 🧾 Editing
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Cards** from the second row of the top menu.
+3. Find the user card you want to edit.
+4. Click the **Edit** icon (blue pencil).
+5. Make your changes.
+4. Click **Submit User Card**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Card Transaction creation with the given User Card you have created.
+
+![UserCard Edit Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/02.%20Edit.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/02.%20Edit.mp4)
+
+### 🧾 Deleting (and Creating Again)
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Cards** from the second row of the top menu.
+3. Find the user card you want to delete.
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The User Card will be deleted if it has NO transactions attached to it. (See more later)
+
+![UserCard Delete Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/03.%20Delete%20-%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/03.%20Delete%20-%20Create.mp4)
+
+### 🧾 Creating Inactive
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Cards** from the second row of the top menu.
+3. Click the **New User Card** button.
+4. Fill in the necessary fields, but uncheck the **Active** checkbox.
+5. Click **Submit User Card**.
+
+You will find yourself again at the listing of User Cards, and to see the account you just created (or edited)
+with the **Active** checkbox unchecked, you have to click on the top corner button **Show Inactive**.
+
+When inactive, a User Card will not show up in the Card Transaction creation page.
+
+![UserCard Create Inactive Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/02.%20UserCards/04.%20Create%20Inactive.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/04.%20Create%20Inactive.mp4)
+
+### 🧾 Creating Card Transaction - Peak Into User Cards Listing
+
+1. Navigate to **Card Transactions** from the first row of the top menu.
+1. Navigate to **<User Card Name>** from the second row of the top menu.
+3. Click the **New Card Transaction <User Card Name>** button.
+4. Fill in these fields for now:
+   - Description
+   - Comment (optional)
+   - User Card
+   - Date
+   - Price
+5. Click **Submit Card Transaction**.
+
+The Card Transaction will be created as long as the necessary data have been filled in.
+Moving back to User Cards Listing page, you will see that the used User Card has updated its transactions count and transactions total.
+
+As for the transactions count, you are able to click on the link that takes you to the listing of all these card transactions that belong
+to the given user card.
+
+![UserCard Create Card Transaction Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.mp4)
+
+### 🧾 Delete Failure Because User Card Has Transactions Attached
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Cards** from the second row of the top menu.
+3. Find a user card that has transactions attached to it (transactions count is greater than 0).
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The User Card will NOT be deleted because there are card transactions attached to it. The one thing that can
+be done in this case is to make it inactive so that it does not show up in the Card Transaction creation page.
+
+![UserCard Delete Failure Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/02.%20UserCards/06.%20Delete%20Failure%20Because%20UserCard%20Has%20Transactions.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/06.%20Delete%20Failure%20Because%UserCards%20Has%20Transactions.mp4)
+
+---
+
+## 🗂️  Categories
+
+### ➕ Creating a Category
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Click the **New Bank Account** button.
+4. Fill in:
+   - Bank Account Name
+   - Bank
+   - Agency Number (4 digits)
+   - Account Number
+   - Active (default is true)
+5. Click **Submit Bank Account**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Cash Transaction creation with the given Bank Account you have created.
+
+![UserBankAccount Create Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/01.%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/01.%20Create.mp4)
+
+### 🧾 Editing
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find the bank account you want to edit.
+4. Click the **Edit** icon (blue pencil).
+5. Make your changes.
+4. Click **Submit Bank Account**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Cash Transaction creation with the given Bank Account you have created.
+
+![UserBankAccount Edit Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/02.%20Edit.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/02.%20Edit.mp4)
+
+### 🧾 Deleting (and Creating Again)
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find the bank account you want to delete.
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The Bank Account will be deleted if it has NO transactions attached to it. (See more later)
+
+![UserBankAccount Delete Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/03.%20Delete%20-%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/03.%20Delete%20-%20Create.mp4)
+
+### 🧾 Creating Inactive
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Click the **New Bank Account** button.
 4. Fill in the necessary fields, but uncheck the **Active** checkbox
 5. Click **Submit Bank Account**.
 
@@ -141,7 +360,116 @@ When inactive, a Bank Account will not show up in the Cash Transaction creation 
 5. Click **Submit Cash Transaction**.
 
 The Cash Transaction will be created as long as the necessary data have been filled in.
-Moving back to Bank Accounts Listing page, you will see that the used Bank Account have updated its transactions count and transactions total.
+Moving back to Bank Accounts Listing page, you will see that the used Bank Account has updated its transactions count and transactions total.
+
+As for the transactions count, you are able to click on the link that takes you to the listing of all these cash transactions that belong
+to the given bank account.
+
+![UserBankAccount Create Cash Transaction Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/05.%20Create%20CashTransaction%20-%20Peak%20Into%20UserBankAccount%23Index.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/05.%20Create%20CashTransaction%20-%20Peak%20Into%20UserBankAccount%23Index.mp4)
+
+### 🧾 Delete Failure Because Bank Account Has Transactions Attached
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find a bank account that has transactions attached to it (transactions count is greater than 0).
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The Bank Account will NOT be deleted because there are cash transactions attached to it. The one thing that can
+be done in this case is to make it inactive so that it does not show up in the Cash Transaction creation page.
+
+![UserBankAccount Delete Failure Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/06.%20Delete%20Failure%20Because%20UserBankAccount%20Has%20Transactions.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/06.%20Delete%20Failure%20Because%UserBankAccounts%20Has%20Transactions.mp4)
+
+---
+
+## 🧑 Entities
+
+### ➕ Creating a Bank Account
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Click the **New Bank Account** button.
+4. Fill in:
+   - Bank Account Name
+   - Bank
+   - Agency Number (4 digits)
+   - Account Number
+   - Active (default is true)
+5. Click **Submit Bank Account**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Cash Transaction creation with the given Bank Account you have created.
+
+![UserBankAccount Create Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/01.%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/01.%20Create.mp4)
+
+### 🧾 Editing
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find the bank account you want to edit.
+4. Click the **Edit** icon (blue pencil).
+5. Make your changes.
+4. Click **Submit Bank Account**.
+
+In case the form was submitted with the necessary data AND the **Active** checkbox is checked,
+you will be redirected to Cash Transaction creation with the given Bank Account you have created.
+
+![UserBankAccount Edit Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/02.%20Edit.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/02.%20Edit.mp4)
+
+### 🧾 Deleting (and Creating Again)
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Find the bank account you want to delete.
+4. Click the **Delete** icon (red little x)
+5. Upon confirmation, click **Yes**.
+
+The Bank Account will be deleted if it has NO transactions attached to it. (See more later)
+
+![UserBankAccount Delete Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/03.%20Delete%20-%20Create.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/03.%20Delete%20-%20Create.mp4)
+
+### 🧾 Creating Inactive
+
+1. Navigate to **Basics** from the first row of the top menu.
+1. Navigate to **Accounts** from the second row of the top menu.
+3. Click the **New Bank Account** button.
+4. Fill in the necessary fields, but uncheck the **Active** checkbox
+5. Click **Submit Bank Account**.
+
+You will find yourself again at the listing of Bank Accounts, and to see the account you just created (or edited)
+with the **Active** checkbox unchecked, you have to click on the top corner button **Show Inactive**.
+
+When inactive, a Bank Account will not show up in the Cash Transaction creation page.
+
+![UserBankAccount Create Inactive Demo](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/01.%20UserBankAccounts/04.%20Create%20Inactive.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/01.%20UserBankAccounts/04.%20Create%20Inactive.mp4)
+
+### 🧾 Creating Cash Transaction - Peak Into Bank Accounts Listing
+
+1. Navigate to **Cash Transactions** from the first row of the top menu.
+1. Navigate to **Pix** from the second row of the top menu.
+3. Click the **New Cash Transaction** button.
+4. Fill in these fields for now:
+   - Description
+   - Comment (optional)
+   - Bank Account
+   - Date
+   - Price
+5. Click **Submit Cash Transaction**.
+
+The Cash Transaction will be created as long as the necessary data have been filled in.
+Moving back to Bank Accounts Listing page, you will see that the used Bank Account has updated its transactions count and transactions total.
 
 As for the transactions count, you are able to click on the link that takes you to the listing of all these cash transactions that belong
 to the given bank account.
