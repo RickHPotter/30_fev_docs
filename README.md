@@ -497,17 +497,44 @@ be done in this case is to make it inactive so that it does not show up in the C
 
 ## 💳 Managing Card Transactions
 
-### ➕ Adding a Card Transaction
+### ➕ Adding a Simple Card Transaction
 
-1. Go to **Card Transactions**.
-2. Click **+** to create a new one.
-3. Fill in:
-   - Amount
+1. Navigate to **Accounts** from the second row of the top menu.
+1. Navigate to **<User Card Name>** from the first row of the top menu.
+3. Click the **New Card Transaction** button.
+4. Fill in:
    - Description
-   - Category
+   - Comment (optional)
+   - User Card
    - Date
-   - Linked card
-4. Click **Create Transaction**.
+   - Price
+   - Category
+   - Entity
+4. Click **Submit Card Transaction**.
+
+![UserCard Create Card Transaction Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.mp4)
+
+### ➕ Adding a Card Transaction with Installments
+
+1. Navigate to **Accounts** from the second row of the top menu.
+1. Navigate to **<User Card Name>** from the first row of the top menu.
+3. Click the **New Card Transaction** button.
+4. Fill in:
+   - Description
+   - Comment (optional)
+   - User Card
+   - Date
+   - Price
+   - Category
+   - Entity
+5. Increase the number of installments to 6.
+6. Click **Submit Card Transaction**.
+
+![UserCard Create Card Transaction Demo](https://github.com/RickHPotter/30_fev_docs/raw/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.gif)
+
+[Download this GIF in video format in 4K](https://github.com/RickHPotter/30_fev_docs/blob/main/03.%20Basics/02.%20UserCards/05.%20Create%20CardTransaction%20-%20Peak%20Into%20UserCard%23Index.mp4)
 
 ### 📚 Searching Card Transactions
 
